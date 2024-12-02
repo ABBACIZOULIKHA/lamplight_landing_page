@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lamplight_landing_page/static/css/main.a18f8b73.css",
-    "main.js": "/lamplight_landing_page/static/js/main.e6a4516a.js",
+    "main.css": "/lamplight_landing_page/static/css/main.b33b9959.css",
+    "main.js": "/lamplight_landing_page/static/js/main.08fcdb01.js",
     "static/media/Photo1.png": "/lamplight_landing_page/static/media/Photo1.2d4637c948fe71914376.png",
     "static/media/Photo2.png": "/lamplight_landing_page/static/media/Photo2.c1228176743559ed0afa.png",
     "static/media/background2.png": "/lamplight_landing_page/static/media/background2.6fb88c8a00bc9c2c63ad.png",
@@ -9,11 +9,11 @@
     "static/media/Mobileweb.png": "/lamplight_landing_page/static/media/Mobileweb.96f31ceae8be187781c8.png",
     "static/media/design.png": "/lamplight_landing_page/static/media/design.ca5822d426f07cd69dcd.png",
     "index.html": "/lamplight_landing_page/index.html",
-    "main.a18f8b73.css.map": "/lamplight_landing_page/static/css/main.a18f8b73.css.map",
-    "main.e6a4516a.js.map": "/lamplight_landing_page/static/js/main.e6a4516a.js.map"
+    "main.b33b9959.css.map": "/lamplight_landing_page/static/css/main.b33b9959.css.map",
+    "main.08fcdb01.js.map": "/lamplight_landing_page/static/js/main.08fcdb01.js.map"
   },
   "entrypoints": [
-    "static/css/main.a18f8b73.css",
-    "static/js/main.e6a4516a.js"
+    "static/css/main.b33b9959.css",
+    "static/js/main.08fcdb01.js"
   ]
 }
