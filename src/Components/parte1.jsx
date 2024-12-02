@@ -7,10 +7,10 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 function Parte1() {
   return (
     <div
-      className="h-screen bg-cover bg-center pt-20"
+      className="h-screen bg-cover bg-center pt-6"
       style={{ backgroundImage: `url(${Backround1})` }}
     >
-      <div className="flex flex-col md:flex-row text-white justify-around items-center px-4 md:px-16">
+      <div className="flex flex-col md:flex-row text-white justify-around items-center px-4 md:px-8">
         {/* Header */}
         <div className="flex flex-col gap-10 md:gap-20 items-center md:items-start">
           {/* Logo */}
@@ -24,10 +24,10 @@ function Parte1() {
 
           {/* Main Text */}
           <div className="text-center md:text-left">
-            <p className="text-4xl md:text-6xl lg:text-8xl font-semibold leading-tight">
+            <p className="text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
               Buy without
             </p>
-            <p className="text-4xl md:text-6xl lg:text-8xl font-semibold leading-tight">
+            <p className="text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
               lifting a finger.
             </p>
           </div>
@@ -39,16 +39,16 @@ function Parte1() {
         </div>
 
         {/* Main Content */}
-        <div className="relative flex items-center justify-center mt-10 md:mt-0">
-          {/* Image principale */}
+        <div className="relative flex items-center justify-center mt-6 md:mt-0">
+          {/* Image principale cachée sur les petits écrans */}
           <img
             src={Mobileweb}
             alt="Mobile Web"
-            className="max-w-xs md:max-w-sm lg:max-w-md"
+            className="hidden md:block w-2/3"
           />
 
           {/* Boutons positionnés légèrement en dehors de l'image */}
-          <div className="absolute bottom-4 left-4 md:bottom-10 md:-left-12 flex flex-col gap-4">
+          <div className="lg:absolute lg:bottom-4 lg:left-4 md:bottom-10 md:-left-12 flex flex-col gap-4 ">
             {/* Bouton Google Play */}
             <div className="flex flex-row items-center gap-2 py-2 px-3 rounded-md bg-white shadow-md hover:shadow-lg hover:cursor-pointer">
               <FaGooglePlay size={45} color="black" />
@@ -68,6 +68,7 @@ function Parte1() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
