@@ -7,12 +7,12 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 function Parte1() {
   return (
     <div
-      className="h-screen bg-cover bg-center pt-6"
+      className="bg-cover bg-center py-10"
       style={{ backgroundImage: `url(${Backround1})` }}
     >
       <div className="flex flex-col md:flex-row text-white justify-around items-center px-4 md:px-8">
         {/* Header */}
-        <div className="flex flex-col gap-10 md:gap-20 items-center md:items-start">
+        <div className="flex flex-col gap-10 md:gap-16 items-center md:items-start">
           {/* Logo */}
           <div className="flex flex-row items-center space-x-4">
             <img src={Logo} alt="Logo" className="w-16 h-16 md:w-20 md:h-20" />

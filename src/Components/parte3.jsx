@@ -10,7 +10,7 @@ function Parte3() {
       transition={{ duration: 0.8 }} // Durée de l'animation
       viewport={{ once: true, amount: 0.3 }} // Active l'animation une seule fois quand 30% de l'élément est visible
     >
-      <div className='text-4xl md:text-6xl'>
+      <div className='text-3xl md:text-4xl'>
         <p>BuyBooster's</p>
         <p>Best Features</p>
       </div>

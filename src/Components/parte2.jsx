@@ -12,8 +12,8 @@ function Parte2() {
       viewport={{ once: true, amount: 0.3 }} // Active l'animation une seule fois quand 30% de l'élément est visible
     >
       {/* Texte */}
-      <div className='flex flex-col gap-10 w-full md:w-2/3'>
-        <div className='text-4xl md:text-6xl'>
+      <div className='flex flex-col gap-10  w-2/3'>
+        <div className='text-3xl md:text-4xl'>
           <p>Say Hello to</p>
           <p>BuyBooster</p>
         </div>
@@ -27,7 +27,7 @@ function Parte2() {
       {/* Image (masquée sur mobile) */}
       <motion.img 
         src={photo1} 
-        className='hidden md:block' 
+        className='hidden md:block w-60' 
         alt="photo" 
         initial={{ opacity: 0, x: -50 }} // Animation de départ
         whileInView={{ opacity: 1, x: 0 }} // Animation quand visible

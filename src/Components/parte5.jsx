@@ -30,7 +30,7 @@ function Parte5() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true, amount: 0.3 }}
       >
-        <div className='flex flex-col text-4xl md:text-6xl'>
+        <div className='flex flex-col text-3xl md:text-4xl'>
           <p>A little</p>
           <p>about LMS</p>
         </div>
