@@ -5,7 +5,7 @@ import HomePage from './Pages/Home'
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/lamplight_landing_page" >
         <Routes>
           <Route path='/' element={<HomePage />} />
         </Routes>
